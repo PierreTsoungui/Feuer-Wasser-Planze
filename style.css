@@ -1,0 +1,29 @@
+body{
+    font-family:Arial, Helvetica, sans-serif ;
+    margin: 0;
+    padding: 0;
+}
+
+.choice-img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 2px solid rebeccapurple;
+}
+#fire,#btn-fire{
+    background-color: orange;
+}
+
+#plant,#btn-plant{
+    background-color: green;
+}
+
+#water ,#btn-water{
+background-color:lightblue;
+}
+
+.btn-sm:hover{
+    opacity: 0.7;
+    cursor: pointer;
+    transition: opacity o.3s ease;
+}
